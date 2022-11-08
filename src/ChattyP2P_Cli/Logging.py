@@ -7,7 +7,7 @@ from _global import *
 def LOGGINGINIT():
 
     
-    logging.basicConfig (filename= 'ChattyP2P_Srv.log', encoding='utf-8', level=logging.DEBUG)
+    logging.basicConfig (filename= 'ChattyP2P_Cli.log', encoding='utf-8', level=logging.DEBUG)
     
     LOGEVENTS_INFO(f"Logging started")
    
