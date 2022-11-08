@@ -1,0 +1,5 @@
+
+IPADDRESS = "192.168.0.0"
+PORT = 8080
+
+USERNAME = "Peter"
