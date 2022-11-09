@@ -3,6 +3,7 @@ from Logging import *
 from _global import *
 from MessageHandling import *
 import os
+import threading
 
 def TCPSRVMAIN():
     
@@ -23,8 +24,10 @@ def TCPSRVMAIN():
         client, address = server.accept()
         LOGEVENTS_DEBUG(f"Client connected to {address}")
 
+        threading.Thread(target=MSGRECV(client)).start()
+        
+        print("Enter a message:")
         while True:
-            print("Enter a message:")
             MSGHANDLER(input(), client)
 
         

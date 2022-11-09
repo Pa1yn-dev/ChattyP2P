@@ -9,6 +9,9 @@ def MSGHANDLER(msg, client):
 
     return
 
+def MSGRECV(client):
+    print(client.recv(4096).decode('utf-8'))
+
 
 
 
