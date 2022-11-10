@@ -11,3 +11,13 @@ DEBUG:root:11/10/2022, 13:49:38 Bound to socket
 DEBUG:root:11/10/2022, 13:49:38 Server listening on 1560
 INFO:root:11/10/2022, 13:49:38 Waiting for client connection
 DEBUG:root:11/10/2022, 13:50:00 Client connected to ('10.56.232.145', 50071)
+INFO:root:11/10/2022, 13:51:47 Logging started
+DEBUG:root:11/10/2022, 13:51:47 Bound to socket
+DEBUG:root:11/10/2022, 13:51:47 Server listening on 1560
+INFO:root:11/10/2022, 13:51:47 Waiting for client connection
+DEBUG:root:11/10/2022, 13:52:56 Client connected to ('10.56.232.145', 50201)
+INFO:root:11/10/2022, 13:53:57 Logging started
+DEBUG:root:11/10/2022, 13:53:57 Bound to socket
+DEBUG:root:11/10/2022, 13:53:57 Server listening on 1560
+INFO:root:11/10/2022, 13:53:57 Waiting for client connection
+DEBUG:root:11/10/2022, 13:54:11 Client connected to ('10.56.232.145', 50236)
