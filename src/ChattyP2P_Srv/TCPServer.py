@@ -23,11 +23,10 @@ def TCPSRVMAIN():
 
         client, address = server.accept()
         LOGEVENTS_DEBUG(f"Client connected to {address}")
-
-        threading.Thread(target=MSGRECV(client)).start()
         
-        print("Enter a message:")
+        print("Enter a message in the terminal and press enter to send:")
         while True:
+            threading.Thread(target=MSGRECV(client)).start()
             MSGHANDLER(input(), client)
 
         

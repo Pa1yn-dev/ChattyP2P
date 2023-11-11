@@ -15,10 +15,12 @@ def TCPCLIENTMAIN():
             quit(code=1)
 
         
-        threading.Thread(target=MSGRECV(client)).start()
-        print("Enter a message:")
+        print("Enter a message in the terminal and press enter to send:")
         while True:
+            task = threading.Thread(target=MSGRECV(client, task))
+            task.start()
             MSGHANDLER(input(), client)
+
 
 
     

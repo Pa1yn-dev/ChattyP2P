@@ -6,7 +6,9 @@ def MSGHANDLER(msg, server):
 
     return
 
-def MSGRECV(server):
+def MSGRECV(server, task):
     print(server.recv(4096).decode('utf-8'))
+    task.join()
+    
 
 
