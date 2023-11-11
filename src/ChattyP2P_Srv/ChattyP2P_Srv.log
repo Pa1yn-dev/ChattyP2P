@@ -21,3 +21,8 @@ DEBUG:root:11/10/2022, 13:53:57 Bound to socket
 DEBUG:root:11/10/2022, 13:53:57 Server listening on 1560
 INFO:root:11/10/2022, 13:53:57 Waiting for client connection
 DEBUG:root:11/10/2022, 13:54:11 Client connected to ('10.56.232.145', 50236)
+INFO:root:11/10/2022, 14:01:20 Logging started
+DEBUG:root:11/10/2022, 14:01:20 Bound to socket
+DEBUG:root:11/10/2022, 14:01:20 Server listening on 1560
+INFO:root:11/10/2022, 14:01:20 Waiting for client connection
+DEBUG:root:11/10/2022, 14:01:35 Client connected to ('10.56.232.145', 50496)
