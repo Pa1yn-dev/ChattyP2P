@@ -1,4 +1,4 @@
-IP = "192.168.0.40"
+IP = "10.56.232.183"
 PORT = 1560
 
-USERNAME = "Peter"
+USERNAME = "User"
