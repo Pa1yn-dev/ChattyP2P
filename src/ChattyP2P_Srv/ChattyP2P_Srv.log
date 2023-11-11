@@ -6,3 +6,8 @@ DEBUG:root:11/09/2022, 13:12:13 Bound to socket
 DEBUG:root:11/09/2022, 13:12:13 Server listening on 1560
 INFO:root:11/09/2022, 13:12:13 Waiting for client connection
 DEBUG:root:11/09/2022, 13:12:19 Client connected to ('10.56.232.145', 63751)
+INFO:root:11/10/2022, 13:49:38 Logging started
+DEBUG:root:11/10/2022, 13:49:38 Bound to socket
+DEBUG:root:11/10/2022, 13:49:38 Server listening on 1560
+INFO:root:11/10/2022, 13:49:38 Waiting for client connection
+DEBUG:root:11/10/2022, 13:50:00 Client connected to ('10.56.232.145', 50071)
