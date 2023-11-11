@@ -7,3 +7,4 @@ def MSGHANDLER(msg, server):
     print(server.recv(4096).decode('utf-8'))
 
     return
+
