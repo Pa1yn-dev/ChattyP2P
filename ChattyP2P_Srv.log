@@ -1,0 +1,4 @@
+INFO:root:11/10/2022, 13:55:56 Logging started
+DEBUG:root:11/10/2022, 13:55:56 Bound to socket
+DEBUG:root:11/10/2022, 13:55:56 Server listening on 1560
+INFO:root:11/10/2022, 13:55:56 Waiting for client connection
